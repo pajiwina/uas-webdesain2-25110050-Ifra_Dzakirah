@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,502 +20,289 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
-<!-- ================= NAVBAR ================= -->
-
-<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
-
-<div class="container">
-
-<a class="navbar-brand fw-bold" href="index.html">
-
-🍥 Dimsum Yummy
-
-</a>
-
-<button class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#navbarNav">
-
-<span class="navbar-toggler-icon"></span>
-
-</button>
-
-<div class="collapse navbar-collapse" id="navbarNav">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="index.html">Beranda</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="about.html">Tentang</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="produk.html">Produk</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="galeri.html">Galeri</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="faq.html">FAQ</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link active" href="kontak.html">Kontak</a>
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</nav>
-
-<!-- ================= HERO ================= -->
-
-<section class="hero">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-6 fade-up">
-
-<span class="badge hero-badge mb-3">
-
-Hubungi Kami
-
-</span>
-
-<h1>
-
-Kontak
-<span>Dimsum Yummy</span>
-
-</h1>
-
-<p class="mt-4">
-
-Kami siap melayani pemesanan, pertanyaan,
-serta kerja sama. Jangan ragu untuk
-menghubungi kami melalui WhatsApp,
-email, ataupun datang langsung ke outlet.
-
-</p>
-
-<a href="#formKontak"
-class="btn btn-pink mt-3">
-
-Kirim Pesan
-
-</a>
-
-</div>
-
-<div class="col-lg-6 text-center">
-
-<img
-src="img/contact.png"
-class="img-fluid hero-image"
-alt="Kontak Dimsum Yummy">
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= INFORMASI KONTAK ================= -->
-
-<section class="py-5">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2 class="section-title">
-
-Informasi Kontak
-
-</h2>
-
-<p>
-
-Silakan hubungi kami melalui informasi berikut.
-
-</p>
-
-</div>
-
-<div class="row g-4">
-
-<!-- Alamat -->
-
-<div class="col-lg-4">
-
-<div class="contact-card text-center">
-
-<div class="contact-icon">
-
-<i class="bi bi-geo-alt-fill"></i>
-
-</div>
-
-<h4>Alamat</h4>
-
-<p>
-
-Jl. Sudirman No. 123<br>
-Pekanbaru, Riau
-
-</p>
-
-</div>
-
-</div>
-
-<!-- WhatsApp -->
-
-<div class="col-lg-4">
-
-<div class="contact-card text-center">
-
-<div class="contact-icon">
-
-<i class="bi bi-whatsapp"></i>
-
-</div>
-
-<h4>WhatsApp</h4>
-
-<p>
-
-+62 812-3456-7890
-
-</p>
-
-</div>
-
-</div>
-
-<!-- Email -->
-
-<div class="col-lg-4">
-
-<div class="contact-card text-center">
-
-<div class="contact-icon">
-
-<i class="bi bi-envelope-fill"></i>
-
-</div>
-
-<h4>Email</h4>
-
-<p>
-
-info@dimsumyummy.com
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= FORM KONTAK ================= -->
-
-<section id="formKontak">
-
-<div class="container">
-
-<div class="row">
-                <!-- ================= FORM ================= -->
-
-                <div class="col-lg-7 mb-4">
-
-                    <div class="contact-card">
-
-                        <h3 class="mb-4" style="color:#EC407A;">
-                            Kirim Pesan
-                        </h3>
-
-                        <form class="needs-validation" novalidate>
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-                                    Nama Lengkap
-                                </label>
-
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Masukkan nama lengkap"
-                                    required>
-
-                                <div class="invalid-feedback">
-                                    Nama wajib diisi.
-                                </div>
-
-                            </div>
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-                                    Email
-                                </label>
-
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    placeholder="Masukkan email"
-                                    required>
-
-                                <div class="invalid-feedback">
-                                    Email tidak valid.
-                                </div>
-
-                            </div>
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-                                    Nomor WhatsApp
-                                </label>
-
-                                <input
-                                    type="tel"
-                                    class="form-control"
-                                    placeholder="08xxxxxxxxxx"
-                                    required>
-
-                                <div class="invalid-feedback">
-                                    Nomor WhatsApp wajib diisi.
-                                </div>
-
-                            </div>
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-                                    Pesan
-                                </label>
-
-                                <textarea
-                                    class="form-control"
-                                    rows="5"
-                                    placeholder="Tuliskan pesan Anda..."
-                                    required></textarea>
-
-                                <div class="invalid-feedback">
-                                    Pesan tidak boleh kosong.
-                                </div>
-
-                            </div>
-
-                            <button
-                                type="submit"
-                                class="btn btn-pink">
-
-                                Kirim Pesan
-
-                            </button>
-
-                        </form>
-
-                    </div>
-
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+            🍥 Dimsum Yummy
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 fade-up">
+                    <span class="badge hero-badge mb-3">
+                        Hubungi Kami
+                    </span>
+                    <h1>
+                        Kontak <span>Dimsum Yummy</span>
+                    </h1>
+                    <p class="mt-4">
+                        Kami siap melayani pemesanan, pertanyaan, serta kerja sama. Jangan ragu untuk memesan produk kami melalui gofood ataupun datang langsung ke outlet.
+                    </p>
+                    <a href="#formKontak" class="btn btn-pink mt-3">
+                        Kirim Pesan
+                    </a>
                 </div>
 
-                <!-- ================= INFO TAMBAHAN ================= -->
+                <div class="col-lg-6 text-center">
+                    <img src="https://cdn-jjmn.jawapos.com/images/20/2026/03/23/Dimsum-goreng-mentai-ala-Its-Friday-yang-lagi-viral-2058178172.jpg" class="img-fluid hero-image" alt="Kontak Dimsum Yummy">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- =============== INFORMASI KONTAK =============== -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">
+                    Informasi Kontak
+                </h2>
+                <p>
+                    Silakan hubungi kami melalui informasi berikut.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Alamat -->
+                <div class="col-lg-4">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        
+                        <h4>Alamat</h4>
+                        <p>
+                            Gg. Garuda I, Tangkerang Tengah<br>Pekanbaru, Riau
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gofood -->
+                <div class="col-lg-4">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon">
+                             <img src="https://i.pinimg.com/736x/02/e9/3f/02e93f409c073b09f20262ed135fccca.jpg" alt="GoFood" width="50">
+                        </div>
+
+                        <h4>Gofood</h4>
+                        <p>
+                            Dimsum Yummy, jalan garuda
+                        </p>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FORM KONTAK ================= -->
+    <section id="formKontak">
+        <div class="container">
+            <div class="row">
+            
+            <!-- ================= FORM ================= -->
+            <div class="col-lg-7 mb-4">
+                <div class="contact-card">
+                    <h3 class="mb-4" style="color:#EC407A;">
+                            Kirim Pesan
+                    </h3>
+
+                    <form class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Nama Lengkap
+                            </label>
+
+                            <input type="text" class="form-control" placeholder="Masukkan nama lengkap" required>
+
+                            <div class="invalid-feedback">
+                                    Nama wajib diisi.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Email
+                            </label>
+
+                            <input type="email" class="form-control" placeholder="Masukkan email" required>
+
+                            <div class="invalid-feedback">
+                                Email tidak valid.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Nomor WhatsApp
+                            </label>
+
+                            <input type="tel" class="form-control" placeholder="08xxxxxxxxxx" required>
+
+                            <div class="invalid-feedback">
+                                Nomor WhatsApp wajib diisi.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Pesan
+                            </label>
+
+                            <textarea class="form-control" rows="5" placeholder="Tuliskan pesan Anda..." required></textarea>
+
+                            <div class="invalid-feedback">
+                                Pesan tidak boleh kosong.
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-pink">
+                            Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ================= INFO TAMBAHAN ================= -->
                 <div class="col-lg-5">
-
                     <div class="contact-card mb-4">
-
                         <h4 class="mb-3" style="color:#EC407A;">
                             Jam Operasional
                         </h4>
 
                         <table class="table">
-
                             <tr>
                                 <td>Senin - Jumat</td>
                                 <td>09.00 - 20.00</td>
                             </tr>
-
                             <tr>
                                 <td>Sabtu</td>
                                 <td>09.00 - 21.00</td>
                             </tr>
-
                             <tr>
                                 <td>Minggu</td>
                                 <td>10.00 - 18.00</td>
                             </tr>
-
                         </table>
-
                     </div>
 
                     <div class="contact-card">
-
                         <h4 class="mb-3" style="color:#EC407A;">
                             Media Sosial
                         </h4>
-
                         <div class="social">
-
                             <a href="#"><i class="bi bi-instagram"></i></a>
-
                             <a href="#"><i class="bi bi-facebook"></i></a>
-
                             <a href="#"><i class="bi bi-tiktok"></i></a>
-
                             <a href="#"><i class="bi bi-whatsapp"></i></a>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- ================= GOOGLE MAP ================= -->
-
     <section class="py-5">
-
         <div class="container">
-
             <div class="text-center mb-5">
-
                 <h2 class="section-title">
                     Lokasi Kami
                 </h2>
-
                 <p>
                     Kunjungi outlet Dimsum Yummy untuk menikmati dimsum yang fresh setiap hari.
                 </p>
-
             </div>
 
             <div class="map">
-
                 <iframe
-                    src="https://www.google.com/maps?q=Pekanbaru&output=embed"
-                    loading="lazy"
-                    allowfullscreen>
+                    src="https://www.google.com/maps?q=Pekanbaru&output=embed" loading="lazy" allowfullscreen>
                 </iframe>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- ================= FOOTER ================= -->
-
     <footer>
-
         <div class="container">
-
             <div class="row">
-
                 <div class="col-lg-4 mb-4">
-
                     <h3>Dimsum Yummy</h3>
-
                     <p>
-
-                        Menyajikan dimsum premium yang halal,
-                        lezat, dan berkualitas untuk seluruh keluarga.
-
+                        UMKM kuliner yang menghadirkan dimsum premium, halal, higienis, dan lezat untuk seluruh keluarga.
                     </p>
-
                 </div>
 
                 <div class="col-lg-4 mb-4">
-
                     <h5>Menu</h5>
-
                     <ul class="list-unstyled">
-
                         <li><a href="index.html">Beranda</a></li>
                         <li><a href="about.html">Tentang</a></li>
                         <li><a href="produk.html">Produk</a></li>
-                        <li><a href="galeri.html">Galeri</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="kontak.html">Kontak</a></li>
-
                     </ul>
-
                 </div>
 
                 <div class="col-lg-4">
+                    <h5>Ikuti Kami</h5>
+                    <div class="social">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-tiktok"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
 
-                    <h5>Hubungi Kami</h5>
-
-                    <p>
-
-                        <i class="bi bi-telephone-fill"></i>
-                        +62 812-3456-7890
-
+                    <p class="mt-3">
+                        © 2026 Dimsum Yummy. All Rights Reserved.
                     </p>
-
-                    <p>
-
-                        <i class="bi bi-envelope-fill"></i>
-                        info@dimsumyummy.com
-
-                    </p>
-
-                    <p class="mt-4">
-
-                        © 2025 Dimsum Yummy<br>
-                        All Rights Reserved.
-
-                    </p>
-
                 </div>
-
             </div>
-
         </div>
-
     </footer>
 
     <!-- Bootstrap JS -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Validasi Form -->
-
     <script>
-
         (() => {
 
             'use strict';
@@ -550,13 +335,10 @@ info@dimsumyummy.com
             });
 
         })();
-
     </script>
 
     <!-- Custom JS -->
-
     <script src="script.js"></script>
 
 </body>
-
 </html>
